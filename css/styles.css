@@ -187,7 +187,7 @@ body {
       width: 2.4rem;
       height: 2.4rem;
       background-color: #000;
-      color: #e4d86a;
+      color: #fff;
       display: grid;
       place-items: center;
       cursor: pointer;
@@ -249,6 +249,36 @@ body {
 
 .show-cart {
   transform: translateX(0) !important; }
+
+.main-footer {
+  width: 100%;
+  height: 9rem;
+  padding: 2rem 0;
+  margin-top: 5rem;
+  background-color: black;
+  position: relative;
+  text-align: center; }
+  .main-footer > span {
+    font-size: 1.4rem;
+    color: #ff0095;
+    margin-top: 3rem;
+    letter-spacing: 0.3rem; }
+    .main-footer > span a {
+      font-size: 1.4;
+      text-decoration: none;
+      color: white;
+      margin-top: 3rem; }
+  .main-footer p {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    letter-spacing: 0.4567rem; }
+    .main-footer p span {
+      color: red;
+      font-size: 1.5rem; }
 
 @media (max-width: 869px) {
   .inner-section {
