@@ -1,0 +1,77 @@
+// Responsive css
+
+@media (max-width: 869px) {
+  .inner-section {
+    // padding: 1rem 1rem !important;
+    width: 100%;
+
+    .banner-title {
+      font-size: 2rem !important;
+    }
+    .banner-btn {
+      padding: 0.7rem 3rem !important;
+    }
+  }
+}
+@media (max-width: 947px) {
+  .navbar {
+    height: 5rem !important;
+
+    .navbar-center {
+      width: 100% !important;
+      margin: 0 auto;
+
+      .nav-icon {
+        font-size: 2.3rem !important;
+      }
+      .logo h2 {
+        font-size: 1.7rem !important;
+        letter-spacing: 0.3rem !important;
+      }
+
+      .cart-btn {
+        position: relative;
+
+        .cart-items {
+          position: absolute;
+          top: -6px !important;
+          right: -6px !important;
+          background-color: $primary;
+          width: 1.8rem;
+          height: 1.8rem;
+
+          p {
+            font-size: 1.356rem;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .inner-section {
+    width: 100%;
+
+    .banner-title {
+      font-size: 23px !important;
+      line-height: 2.67rem !important;
+    }
+    .banner-btn {
+      padding: 0.3rem 3rem !important;
+    }
+  }
+
+  .cart-item {
+    padding: 2rem 0.9rem !important;
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
+@media (min-width: 700px) {
+  .cart-item {
+    width: 45% !important;
+    height: 100%;
+  }
+}
