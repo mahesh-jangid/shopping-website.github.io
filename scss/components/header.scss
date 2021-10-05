@@ -251,6 +251,7 @@
 
           .item-title {
             font-size: 1.5rem;
+            text-transform: capitalize;
           }
           h5 {
             font-size: 1.4rem;
@@ -314,35 +315,26 @@
   padding: 2rem 0;
   margin-top: 5rem;
   background-color: black;
-  position: relative;
-  text-align: center;
 
-  > span {
-    font-size: 1.4rem;
-    color: rgb(255, 0, 149);
-    margin-top: 3rem;
-    letter-spacing: $secondarySpace;
+  // text-align: center;
 
-    a {
-      font-size: 1.4;
-      text-decoration: none;
-      color: white;
-      margin-top: 3rem;
+  .footer-info {
+    > span {
+      font-size: 1.3rem;
+      color: rgb(255, 0, 149);
+      letter-spacing: $secondarySpace;
+
+      a {
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: white;
+        margin-top: 3rem;
+      }
     }
-  }
-
-  p {
-    color: $white;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1rem;
-    letter-spacing: $mainSpace;
-
-    span {
-      color: red;
-      font-size: 1.5rem;
+    p {
+      color: $white;
+      font-size: 0.9rem;
+      letter-spacing: $mainSpace;
     }
   }
 }

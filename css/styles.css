@@ -41,7 +41,7 @@ body {
       cursor: pointer; }
     .navbar .navbar-center .logo h2 {
       font-size: 2rem;
-      letter-spacing: 0.4567rem; }
+      letter-spacing: 0.3567rem; }
       .navbar .navbar-center .logo h2 span {
         color: #ff1c8d;
         font-weight: 900; }
@@ -214,7 +214,8 @@ body {
         .cart-overlay .cart-item .cart-container .cart .item-content {
           text-align: center; }
           .cart-overlay .cart-item .cart-container .cart .item-content .item-title {
-            font-size: 1.5rem; }
+            font-size: 1.5rem;
+            text-transform: capitalize; }
           .cart-overlay .cart-item .cart-container .cart .item-content h5 {
             font-size: 1.4rem; }
         .cart-overlay .cart-item .cart-container .cart .remove-item {
@@ -255,30 +256,20 @@ body {
   height: 9rem;
   padding: 2rem 0;
   margin-top: 5rem;
-  background-color: black;
-  position: relative;
-  text-align: center; }
-  .main-footer > span {
-    font-size: 1.4rem;
+  background-color: black; }
+  .main-footer .footer-info > span {
+    font-size: 1.3rem;
     color: #ff0095;
-    margin-top: 3rem;
     letter-spacing: 0.3rem; }
-    .main-footer > span a {
-      font-size: 1.4;
+    .main-footer .footer-info > span a {
+      font-size: 1.3rem;
       text-decoration: none;
       color: white;
       margin-top: 3rem; }
-  .main-footer p {
+  .main-footer .footer-info p {
     color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1rem;
-    letter-spacing: 0.4567rem; }
-    .main-footer p span {
-      color: red;
-      font-size: 1.5rem; }
+    font-size: 0.9rem;
+    letter-spacing: 0.3567rem; }
 
 @media (max-width: 869px) {
   .inner-section {
